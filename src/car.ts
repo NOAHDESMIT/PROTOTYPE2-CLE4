@@ -30,9 +30,7 @@ export class Car extends PIXI.Sprite {
 
     drive() {
         this.x -= this.speed
-        // console.log(this.x)
-        // TODO IF STATEMENT CHECK X POSITIE
-        // console.log(this.x)
+       
         if (this.x <= -400) {
             this.x = window.innerWidth + 400
         }

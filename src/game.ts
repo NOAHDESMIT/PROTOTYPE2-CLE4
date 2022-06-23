@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js"
 import carImage from "./images/car.png"
-import backgroundImage from "./images/background-rain.jpg"
+import backgroundImage from "./images/background.jpg"
 import hornSoundFile from "url:./audio/car-horn.mp3"
 import backgroundSound from "url:./audio/SAX-LOFI-.mp3"
 import {Car} from "./car"
